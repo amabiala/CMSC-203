@@ -1,20 +1,22 @@
+import java.io.IOException;
+
+
+
+
+import javafx.application.Application;
+//import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
-import javafx.geometry.Insets;
-import javafx.geometry.Pos;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.RadioButton;
-import javafx.scene.control.TextField;
-import javafx.scene.control.ToggleGroup;
 import javafx.scene.control.Tooltip;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
 
-
-public class FXMainPane {
+public class FXDriver extends BorderPane {
 	private Button decryption, exitButton, encryption, test, clearButton;
 	private TextField plainTextTextField, inputForEncryptionTextField, encryptedStringTextField3, decryptedTextField4;
 	private Label plainTextLabel, descriptionForInputLabel, encryptedLabel3, decriptedLabel4, blankLabel1, blankLabel2, blankLabel3, blankLabel4;
