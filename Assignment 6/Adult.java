@@ -4,8 +4,8 @@ import java.text.DecimalFormat;
 public class Adult extends Ticket {
 	
 	private final double RATE = 0.096;
-	private final double DAYTIME = 13.50;
-	private final double EVENING = 10.50;
+	private final double DAYTIME = 10.50;
+	private final double EVENING = 13.50;
 	private final double IMAX = 3;
 	private final double TRD = 2.50; // Constant for 3D
 	
