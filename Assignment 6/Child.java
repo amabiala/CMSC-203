@@ -26,7 +26,7 @@ public class Child extends Ticket {
 	public Child(String name, String rating, int day, int time, String format) {
 		super(name, rating, day, time, format, type, id);
 		super.setType(Type.CHILD);
-		if(super.getRating().equals(Rating.PG) || super.getRating().equals(Rating.PG13))
+		if(super.getRating().equals(Rating.R) || super.getRating().equals(Rating.PG13))
 			throw new IllegalArgumentException("Children cannot watch movies of R rating or PG-13 rating");
 	}
 
